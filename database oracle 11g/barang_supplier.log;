@@ -1,0 +1,19 @@
+;;; 
+Export: Release 11.2.0.1.0 - Production on Fri Jul 1 22:59:35 2022
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Starting "YOI_BANGUNAN"."SYS_EXPORT_TABLE_01":  yoi_bangunan/******** TABLES=barang1,supplier1 DIRECTORY=backup_dir DUMPFILE=barang_supplier.dmp logfile=barang_supplier.log; 
+Estimate in progress using BLOCKS method...
+Processing object type TABLE_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 128 KB
+Processing object type TABLE_EXPORT/TABLE/TABLE
+. . exported "YOI_BANGUNAN"."BARANG1"                    6.851 KB       5 rows
+. . exported "YOI_BANGUNAN"."SUPPLIER1"                  6.890 KB       4 rows
+Master table "YOI_BANGUNAN"."SYS_EXPORT_TABLE_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for YOI_BANGUNAN.SYS_EXPORT_TABLE_01 is:
+  D:\APP\TABLE_LEVEL\BARANG_SUPPLIER.DMP
+Job "YOI_BANGUNAN"."SYS_EXPORT_TABLE_01" successfully completed at 23:00:31
